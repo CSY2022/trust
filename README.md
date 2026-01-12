@@ -68,7 +68,7 @@ Translations done so far:
 
 **Step 2)** Translate the following files:
 
-`index.html` -- The title & social sharing text (a few words)
+`index.html` -- The title (a few words)
 `words.html` -- All the words for the interactive itself (~3,300 words)
 (optional) `notes/index.html` -- The footnotes (~1,100 words)
 (optional) `peeps/index.html` -- The full credits (a few words)
