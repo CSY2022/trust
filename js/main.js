@@ -10,7 +10,7 @@ window.onload = function(){
 		// CHANGE DOM
 		document.body.removeChild($("#preloader"));
 		$("#main").style.display = "block";
-		$("#footer").style.display = "block";
+		$("#ui").style.display = "block";
 
 		// Slideshow
 		slideshow = new Slideshow({
@@ -26,7 +26,6 @@ window.onload = function(){
 		slideSelect.dom.style.display = "none";
 		subscribe("start/game", function(){
 			slideSelect.dom.style.display = "block";
-			$("#translations").style.display = "none";
 
 			// [FOR DEBUGGING]
 			publish("slideshow/next");

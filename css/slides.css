@@ -35,34 +35,22 @@ body{
 }
 #main{
 	width: 100%;
-	height: calc(100% - 60px);
+	height: 100%;
 	position: relative;
 	overflow: hidden;
-}
-#footer{
-	position: absolute;
-	z-index: 1000;
-	width: 100%;
-	height: 60px;
-	background: #222;
 }
 s{
 	text-decoration: line-through;
 }
 
-#translations{
-	margin: 10px auto;
-    font-size: 13px;
-    line-height: 21px;
-    color: #fff;
-    text-align: center;
-    width: 850px;
-}
-#translations a{
-	color:#dd4040;
-}
-#translations a:hover{
-	color:#ee5151;
+#ui{
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 0;
+	pointer-events: none;
 }
 
 
@@ -71,12 +59,13 @@ s{
 /******* SOUND *******/
 /*************************/
 #sound{
-	position: absolute;
-	left:13px;
-	top:5px;
+	position: fixed;
+	right: 13px;
+	top: 5px;
 	width: 100px;
 	height: 50px;
 	cursor: pointer;
+	pointer-events: auto;
 }
 #sound > div{
 	position: absolute;
