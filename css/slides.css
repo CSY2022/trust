@@ -110,6 +110,17 @@ s{
 	display: none;
 }
 
+.sharing{
+	position: absolute;
+	width:120px;
+	height:40px;
+	top:10px;
+	right:13px;
+}
+.sharing img{
+	width: 40px;
+	height: 40px;
+}
 
 /*************************/
 /******* SLIDESHOW *******/
@@ -530,3 +541,4 @@ s{
 .credits a:hover{
 	color:#ee5151;
 }
+
